@@ -15,6 +15,7 @@ public class ChatController {
 	@MessageMapping("/chat.register")
 	@SendTo("/topic/public")
 	public ChatMessage register(@Payload ChatMessage chatMessage, SimpMessageHeaderAccessor headerAccessor) {
+		System.out.println("Inside Register Method");
 		headerAccessor.getSessionAttributes().put("username", chatMessage.getSender());
 		return chatMessage;
 	}

@@ -8,6 +8,8 @@ import org.springframework.stereotype.Controller;
 
 import com.novartis.model.ChatMessage;
 
+//Demo of chat bot
+
 @Controller
 public class ChatController {
 	@MessageMapping("/chat.register")

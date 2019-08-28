@@ -12,6 +12,12 @@ public class SpringSchedularApplication {
 		System.out.println("latest========");
 		first();
 		second();
+		third();
+	}
+
+	private static void third() {
+		// TODO Auto-generated method stub
+		System.out.println("Third");
 	}
 
 	private static void first() {

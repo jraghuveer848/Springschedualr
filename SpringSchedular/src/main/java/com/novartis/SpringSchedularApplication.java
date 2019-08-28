@@ -10,6 +10,12 @@ public class SpringSchedularApplication {
 		SpringApplication.run(SpringSchedularApplication.class, args);
 		System.out.println("Application started..");
 		System.out.println("latest========");
+		first();
+	}
+
+	private static void first() {
+		// TODO Auto-generated method stub
+		System.out.println("First");
 	}
 
 }

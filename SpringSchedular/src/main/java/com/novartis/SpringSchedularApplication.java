@@ -8,6 +8,7 @@ public class SpringSchedularApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringSchedularApplication.class, args);
+		System.out.println("latest========");
 	}
 
 }

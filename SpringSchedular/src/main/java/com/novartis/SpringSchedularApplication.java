@@ -11,6 +11,7 @@ public class SpringSchedularApplication {
 		System.out.println("Application started..");
 		System.out.println("latest========");
 		first();
+		second();
 	}
 
 	private static void first() {

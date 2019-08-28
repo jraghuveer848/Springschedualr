@@ -17,5 +17,9 @@ public class SpringSchedularApplication {
 		// TODO Auto-generated method stub
 		System.out.println("First");
 	}
+	
+	private static void second() {
+		System.out.println("Second");
+	}
 
 }
